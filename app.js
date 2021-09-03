@@ -8,6 +8,8 @@ const HttpError = require('./models/http-error')
 
 const homepageRoutes = require('./routes/home-routes')
 
+const path = require('path'); 
+
 
 //customerPageRoutes
 const adminPageRoutes = require('./routes/admin-routes')
