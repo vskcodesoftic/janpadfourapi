@@ -19,7 +19,7 @@ const HttpError = require('../middleware/http-error');
 
 const { v1: uuid } = require('uuid');
 
-
+//add state
 const addState = async (req ,res, next) => {
  
     const { title, description  , listOfCities } = req.body;
